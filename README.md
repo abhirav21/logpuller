@@ -28,9 +28,10 @@ Please follow instructions for setup :
 
 1. Clone this project and use the command `npm install` to initiate installation.
 
-2. Start the project using `npm run start`. The default port is 3000. The project will be accessible on `http://localhost:3000/logpuller/api`
+2. Create .env file with aws s3 credentials for `AWS_ACCESSKEY_ID` and `SECRET_ACCESS_KEY`
 
-3. Create .env file with aws s3 credentials for `AWS_ACCESSKEY_ID` and `SECRET_ACCESS_KEY`
+3. Start the project using `npm run start`. The default port is 3000. The project will be accessible on `http://localhost:3000/logpuller/api`
+
 
 
 Swagger is available on {host}/api
